@@ -1,13 +1,91 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    font-family: 'Bebas Neue', cursive;
 
-    You can write your own styles here...
+    background-color: #f9f4ea;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-*/
+.home-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-class-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.home-class-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.counter-class {
+    font-weight: bold;
+
+    font-size: 15rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-flag {
+    color: #bb9bfb;
+}
+
+.blue-flag {
+    color: #5be3fb;
+}
+
+.green-flag {
+    color: #02d9b9;
+}
+
+.yellow-flag {
+    color: #fbe333;
+}
+
+.orange-flag {
+    color: #fb9b43;
+}
+
+.red-flag {
+    color: #fa6b8b;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.button {
+    border: 0;
+    background-color: #fa6b8b;
+    color: #f9f4ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+    padding-top: 0.1rem;
+}
+
+.button:hover {
+    background-color: #f987a0;
+    color: #f9f4ea;
+}
+
+.button:active {
+    background-color: #f25679;
+    color: #f9f4ea;
+}
